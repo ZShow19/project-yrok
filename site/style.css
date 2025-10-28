@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+/* Стили для кнопки выбора цвета */
+.color-btn {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.black {
+  background-color: black;
+}
+
+/* Активный класс для кнопки выбора цвета */
+.active-border {
+  box-shadow: 0px 0px 0px 3px #fe9b07;
+  /* border: 5px solid #fe9b07; */
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-btn {
+  list-style-type: none;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+}

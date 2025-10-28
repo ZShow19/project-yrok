@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+.header{
+    background-color: #f1e1e1;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 13px;
+}               
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-btn {
+    list-style-type: none;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+  
+.nav-links a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+.icon{
+    margin: 15px;
+}
+.container-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.main-content-title{
+    background-color: #C8DDED;
+    padding: 40px;
+    border-radius: 56px;
+    
+}
+
+.subtitle-desc{
+    font-size: 20px;
+    line-height: 27px;
+    padding-top: 20px;
+    width: 400px;
+}
+.section-subtitle{
+    display: flex;
+    gap: 20px;
+}
+.btn-light{
+    margin-top: 20px;
+}
+.iphoneph{
+    margin-left: 60%;
+    margin-top: -35%;
+}
+.main-content-title-2, .main-content-title-3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main-content-title-2{
+    background-color: #4f5a63bd;
+    padding: 4%;
+    border-radius: 56px;
+    margin-top: 25px;
+}
+.subtitle-desc-2{
+    font-size: 24px;
+    line-height: 34px;
+}
+.main-btn{
+    border-radius: 12px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding: 10px 32px 10px 32px;
+    border: 0px;
+    margin-top: 40px;
+    line-height: 26px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-btn:active{
+    transform: scale(0.95);
+    transition: transform 0.3s ease-out;
+}
+.main-content-title-3{
+    background-color: #bec2c5bd;
+    padding: 4%;
+    border-radius: 56px;
+    margin-top: 20px;
+}
+.subtitle-desc-3{
+    font-size: 24px;
+    line-height: 34px;
+}
+
+
+
+
+
